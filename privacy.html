@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — FOKE FM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #080808; --text: #ffffff; --muted: rgba(255,255,255,0.6);
+            --sep: rgba(255,255,255,0.12); --accent: #ffd23f;
+        }
+        body {
+            background: var(--bg); color: var(--text);
+            font-family: 'Inter', sans-serif; line-height: 1.7;
+            max-width: 640px; margin: 0 auto; padding: 3rem 1.5rem 4rem;
+        }
+        h1 {
+            font-family: 'Space Grotesk', sans-serif; font-size: 1.6rem;
+            margin-bottom: 0.3rem;
+        }
+        .version { color: var(--muted); font-size: 0.8rem; margin-bottom: 2rem; }
+        ol { padding-left: 1.2rem; }
+        li { margin-bottom: 1rem; }
+        .note {
+            margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--sep);
+            color: var(--muted); font-size: 0.85rem;
+        }
+        a { color: var(--accent); }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidad</h1>
+    <p class="version">FOKE FM Records — Versión 1, vigente desde 2026-07-28</p>
+
+    <p>Esta política cubre las integraciones de FOKE FM con APIs de publicación de video corto
+    (TikTok Content Posting API, Meta/Instagram Graph API, YouTube Data API).</p>
+
+    <ol>
+        <li><strong>Qué datos usamos.</strong> Usamos únicamente las credenciales (tokens OAuth)
+        de la propia cuenta de FOKE FM para publicar contenido — no recolectamos, almacenamos ni
+        procesamos datos personales de otros usuarios de estas plataformas.</li>
+        <li><strong>Sin login de terceros.</strong> Ninguna persona externa inicia sesión a través
+        de FOKE FM ni comparte sus datos con nosotros por medio de estas integraciones.</li>
+        <li><strong>Datos de artistas (envío de demos).</strong> Cuando un artista envía una demo,
+        guardamos su nombre, contacto y enlaces públicos (Spotify) únicamente para acreditarlo y
+        contactarlo sobre su música — no se comparte con terceros salvo lo que ya es público
+        (créditos en video/descripción).</li>
+        <li><strong>Tokens de acceso.</strong> Los tokens de las APIs (YouTube/TikTok/Instagram) se
+        guardan localmente en el servidor que corre el pipeline, no se comparten con terceros.</li>
+        <li><strong>Baja de datos.</strong> Cualquier persona puede pedir que se elimine su
+        información escribiendo a <a href="mailto:fokefm@gmail.com">fokefm@gmail.com</a>.</li>
+    </ol>
+
+    <p class="note">
+        Para consultas sobre esta política, escribinos a
+        <a href="mailto:fokefm@gmail.com">fokefm@gmail.com</a>.
+    </p>
+</body>
+</html>
